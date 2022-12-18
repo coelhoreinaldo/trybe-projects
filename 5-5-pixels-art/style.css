@@ -1,0 +1,46 @@
+#title {
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  margin: 8px auto;
+}
+
+.color {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+#pixel-board {
+  border: 3px solid black;/* max-width: px; */
+  width: 222px;
+  margin: 0 auto;
+  padding-top: 3px;
+  justify-content: center;
+  background-color: gray;
+}
+
+.pixel {/* Requisito 7 */
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 1.2px;
+  background-color: white;
+}
+
+#input-section {
+  text-align: center;
+}
+
+#generate-board {
+  display: inline;
+  margin-left: 8px;
+}
