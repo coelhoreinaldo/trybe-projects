@@ -1,0 +1,11 @@
+/* * {
+  a
+} */
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  background-color: gray;
+}
