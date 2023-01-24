@@ -1,22 +1,5 @@
 const vqv = require('../src/vqv.js');
 
-/*
-  Use template literals para escrever uma função que recebe seu nome e sua idade e retorna o parágrafo descrito abaixo:
-
-  Parâmetros:
-  - Uma string;
-  - Um número.
-
-  Comportamento:
-  vqv(Tunico, 30) // Retorna:
-  'Oi, meu nome é Tunico!
-  Tenho 30 anos,
-  trabalho na Trybe e mando muito em programação!
-  #VQV!'
-
-  Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser retornado.
-*/
-
 describe('3 - Implemente a função `vqv`', () => {
   it('Verifica se `vqv` é uma função', () => {
     expect(typeof vqv).toBe('function');
